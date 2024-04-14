@@ -26,6 +26,7 @@ class ImageGridViewController: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         
+        
         // Fetch images from Unsplash API
         fetchImages()
     }
